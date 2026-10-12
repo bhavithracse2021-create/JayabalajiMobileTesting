@@ -1,0 +1,37 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.5
+Build-Jdk-Spec: 21
+Bundle-ManifestVersion: 2
+Bundle-Name: %fragmentName.win32.x86_64
+Bundle-SymbolicName: org.eclipse.cdt.core.win32.x86_64;singleton:=true
+Bundle-Version: 12.6.0.202607152339
+Fragment-Host: org.eclipse.cdt.core.native;bundle-version="[6.3.0,7.0.0)
+ "
+Eclipse-PlatformFilter: (&(osgi.os=win32)(osgi.arch=x86_64))
+Bundle-Vendor: %providerName
+Bundle-Localization: plugin
+Eclipse-BundleShape: dir
+Eclipse-SourceReferences: scm:git:https://github.com/eclipse-cdt/cdt;pat
+ h="core/org.eclipse.cdt.core.win32.x86_64";commitId=90d1dd316af732ac3b4
+ dc9918a2364af9a786b72
+
+Name: about.html
+SHA-256-Digest: RvukeXiD1GnUclxaggNaNsE9vlj0EQRiCopdFNLCinM=
+
+Name: os/win32/x86_64/starter.exe
+SHA-256-Digest: XNiKjGJNURPNhT/KYGGLuUD135azp+zEZW+7t7oFhzg=
+
+Name: META-INF/maven/org.eclipse.cdt/org.eclipse.cdt.core.win32.x86_64/p
+ om.properties
+SHA-256-Digest: t639CNKrpKvVLKRzE/czmooKB01QT3LMPn54QVBOZ78=
+
+Name: os/win32/x86_64/spawner.dll
+SHA-256-Digest: 6evnx8efnAa09UOvLoPdEzjQl0xyly4eXKS5xQV7HtY=
+
+Name: plugin.properties
+SHA-256-Digest: 70wdNuXHtH09cvKwPYYwqj9WZFVEfMuMC6AVYGU6Dls=
+
+Name: META-INF/maven/org.eclipse.cdt/org.eclipse.cdt.core.win32.x86_64/p
+ om.xml
+SHA-256-Digest: McYaMY7Sic+xBQs19Z2xG0CKNhoErl1RCIWb8bFmLTo=
+
